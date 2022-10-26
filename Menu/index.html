@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Barre de navigation avec sous-menu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav aria-label="Navigation principale" id="nav-main">
+      <ul>
+          <li><a href="javascript:void(0);" class="active">Accueil</a></li>
+          <li><a href="javascript:void(0);">Magasin</a></li>
+          <li class="has-submenu">
+                  <a href="javascript:void(0);">
+                      Produit
+                  </a>
+                  <button class="chevron" aria-expanded="false"></button>
+                  <ul>
+                      <li><a href="javascript:void(0);">Produit 10</a></li>
+                      <li><a href="javascript:void(0);">Produit 10 Plus</a></li>
+                  </ul>
+          </li>
+          <li><a href="javascript:void(0);">A propos</a></li>
+          <li><a href="javascript:void(0);">Contact</a></li>
+      </ul>
+  </nav>
+  </header>
+  <script src="script.js"></script>
+</body>
+</html>
